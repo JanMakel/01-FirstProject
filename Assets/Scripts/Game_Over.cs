@@ -9,7 +9,7 @@ public class Game_Over : MonoBehaviour
     {
         if (other.gameObject.name.Equals("Laser"))
         {
-            //I have to options of game over, they get the same but one destroys the game object and the other one get the player to the initial position of the player
+            //I have two options of game over, they get the same but one destroys the game object and the other one get the player to the initial position of the player
 
             //Destroy(gameObject);
             //Time.timeScale = 0;
